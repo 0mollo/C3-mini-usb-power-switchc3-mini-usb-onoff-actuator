@@ -12,7 +12,6 @@ The board provides:
 This design is suitable for smart actuators, power cycling peripherals,
 IoT power management, and embedded automation systems.
 
----
 
 ##  Features
 
@@ -24,7 +23,6 @@ IoT power management, and embedded automation systems.
 - Gate resistor and pull-down for safe boot behavior
 - Compact, low-cost PCB design
 
----
 
 ##  Electrical Overview
 
@@ -36,7 +34,6 @@ IoT power management, and embedded automation systems.
 | USB type | USB-C (Power only) |
 | Control pin | D3 |
 
----
 
 ##  How It Works
 
@@ -49,8 +46,6 @@ IoT power management, and embedded automation systems.
 
 Low-side switching is used, meaning the load ground is switched via the MOSFET.
 
----
-
 ##  USB-C Configuration
 
 - VBUS pins tied together
@@ -59,8 +54,6 @@ Low-side switching is used, meaning the load ground is switched via the MOSFET.
 - CC2 → 5.1 kΩ → GND
 
 This advertises a **default 5 V USB power source** (non-PD).
-
----
 
 ##  Pinout Summary
 
@@ -72,7 +65,6 @@ This advertises a **default 5 V USB power source** (non-PD).
 | USB-C | Switched 5 V output |
 | 2-Pin Header | Switched 5 V output |
 
----
 
 ##  Example Firmware
 
