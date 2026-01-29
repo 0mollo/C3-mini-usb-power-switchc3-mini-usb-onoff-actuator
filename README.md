@@ -14,7 +14,7 @@ IoT power management, and embedded automation systems.
 
 ---
 
-## ✨ Features
+##  Features
 
 - ESP32-C3 Mini compatible
 - Logic-level N-MOSFET switching (3.3 V GPIO compatible)
@@ -26,7 +26,7 @@ IoT power management, and embedded automation systems.
 
 ---
 
-## ⚡ Electrical Overview
+##  Electrical Overview
 
 | Parameter | Value |
 |---------|------|
@@ -38,7 +38,7 @@ IoT power management, and embedded automation systems.
 
 ---
 
-## 🔌 How It Works
+##  How It Works
 
 - GPIO **D3** drives the MOSFET gate through a series resistor
 - When D3 = HIGH (3.3 V), the MOSFET turns ON
@@ -51,7 +51,7 @@ Low-side switching is used, meaning the load ground is switched via the MOSFET.
 
 ---
 
-## 🔧 USB-C Configuration
+##  USB-C Configuration
 
 - VBUS pins tied together
 - GND pins tied together
@@ -62,7 +62,7 @@ This advertises a **default 5 V USB power source** (non-PD).
 
 ---
 
-## 📌 Pinout Summary
+##  Pinout Summary
 
 | Signal | Description |
 |------|------------|
@@ -74,7 +74,7 @@ This advertises a **default 5 V USB power source** (non-PD).
 
 ---
 
-## 🧪 Example Firmware
+##  Example Firmware
 
 ```cpp
 #define POWER_PIN 3   // D3
