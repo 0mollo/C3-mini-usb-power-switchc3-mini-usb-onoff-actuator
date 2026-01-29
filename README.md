@@ -26,7 +26,7 @@ IoT power management, and embedded automation systems.
 
 ## Documentation
 
-[Shematic]()
+[Shematic](https://github.com/0mollo/C3-mini-usb-power-switchc3-mini-usb-onoff-actuator/blob/main/Water%20Pump%20Actuator.pdf)
 
 ##  Electrical Overview
 
