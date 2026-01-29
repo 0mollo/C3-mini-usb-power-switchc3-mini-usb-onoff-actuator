@@ -24,6 +24,9 @@ IoT power management, and embedded automation systems.
 - Gate resistor and pull-down for safe boot behavior
 - Compact, low-cost PCB design
 
+## Documentation
+
+[Shematic]()
 
 ##  Electrical Overview
 
