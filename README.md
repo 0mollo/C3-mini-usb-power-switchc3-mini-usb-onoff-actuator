@@ -1,3 +1,4 @@
+![image alt](https://github.com/0mollo/C3-mini-usb-power-switchc3-mini-usb-onoff-actuator/blob/main/USB%20On_off%20switch%20bottom%20View.PNG) |![image alt]()
 # C3-Mini USB Power ON/OFF Switch
 
 A compact, logic-level MOSFET-based power switch that allows an ESP32-C3 Mini
